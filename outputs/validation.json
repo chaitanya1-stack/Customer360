@@ -1,0 +1,25 @@
+{
+  "raw_data_rows": 1067371,
+  "unit_tests_passed": 12,
+  "notebook_code_cells_executed": 12,
+  "customer_rows": 5256,
+  "model_assignment_agreement": 1.0,
+  "checks": [
+    "source audit reconciles",
+    "unique customer join grain",
+    "customer spend reconciles to cluster profiles",
+    "frequency independently reconciles to distinct customer invoices",
+    "holdout denominators reconcile",
+    "all local notebook code cells executed",
+    "saved native predictor reproduces all exported labels"
+  ],
+  "visual_review": [
+    "executive_summary.png",
+    "model_selection.png",
+    "cohort_retention.png"
+  ],
+  "not_executed": [
+    "Google Colab environment-specific setup",
+    "GitHub Actions hosted CI"
+  ]
+}

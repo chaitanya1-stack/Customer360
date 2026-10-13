@@ -1,0 +1,71 @@
+{
+  "selected_candidate": "KMeans_3",
+  "algorithm": "KMeans",
+  "k": 3,
+  "silhouette": 0.32331241009349493,
+  "silhouette_sample_size": 1500,
+  "pca_components": 6,
+  "pca_explained_variance": 0.929174057798868,
+  "pca_variance_ratios": [
+    0.37648144334661626,
+    0.20859650206775282,
+    0.11163104027705531,
+    0.09823936219396058,
+    0.09301431245579429,
+    0.04121139745768877
+  ],
+  "stability_80pct_subsample_ari": [
+    0.9973172081062919,
+    0.9752632044566972,
+    0.9941355987112792,
+    0.9646355030994808,
+    0.8932271609469972
+  ],
+  "stability_mean_ari": 0.9649157350641493,
+  "centroid_training_agreement": 0.9992389649923896,
+  "selection_rule": "Highest sampled silhouette among converged k>=3 candidates, min share>=2%, max share<=80%; k=2 benchmark only",
+  "metric_space": "PCA scores retaining at least 90% of transformed feature variance",
+  "feature_names": [
+    "recency",
+    "frequency",
+    "monetary",
+    "unique_products",
+    "avg_basket_units",
+    "customer_age_days",
+    "avg_gap_days",
+    "return_value_ratio",
+    "recent_order_share",
+    "single_order"
+  ],
+  "seed": 42,
+  "rfm_only_reference_ari": 0.4797862176418278,
+  "cutoff_exclusive": "2011-09-10",
+  "holdout_end_exclusive": "2011-12-09",
+  "holdout_days": 90,
+  "feature_customers": 5256,
+  "feature_purchase_lines": 618314,
+  "feature_orders": 30019,
+  "feature_gross_value": 13690824.94,
+  "persona_thresholds": {
+    "high_value_75th_percentile_gbp": 2061.8775,
+    "loyal_frequency_threshold": 6.0,
+    "inactive_days": 90,
+    "recent_days": 30,
+    "loyal_recency_days": 60
+  },
+  "purchase_row_split": {
+    "feature_rows": 618314,
+    "holdout_rows": 157658,
+    "outside_analysis_rows": 605
+  },
+  "overall_holdout_purchase_rate": 0.4351217656012177,
+  "raw_rows": 1067371,
+  "runtime_seconds": 7.9,
+  "versions": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "sklearn": "1.8.0"
+  },
+  "status": "Executed on the complete original UCI workbook; no simulated dataset used"
+}
