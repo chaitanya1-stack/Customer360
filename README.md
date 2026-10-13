@@ -103,6 +103,6 @@ The 1.07M figure counts raw **item-level records**, not orders or cleaned traini
 
 ## Source and licensing
 
-Chen, D. (2012). *Online Retail II*. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D. https://archive.ics.uci.edu/dataset/502/online+retail+ii . Data is **CC BY 4.0**; transformed outputs retain this attribution. Project code is MIT licensed. See `DATA_LICENSE.md` and `LICENSE`.
+Chen, D. (2012). *Online Retail II*. UCI Machine Learning Repository. https://doi.org/10.24432/C5CG6D. https://archive.ics.uci.edu/dataset/502/online+retail+ii . Data is **CC BY 4.0**; transformed outputs retain this attribution. Project code is MIT licensed. 
 
 Reference implementation documentation: [scikit-learn clustering](https://scikit-learn.org/stable/modules/clustering.html) and [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html). Installed versions are pinned in `requirements.txt`; runtime versions and source SHA-256 are recorded with the outputs.
